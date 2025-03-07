@@ -86,7 +86,7 @@ dotnet run -- --help
 ```
 
 ## Text-to-Speech API Container
-This client is designed to work with a text-to-speech container that provides a TTS API endpoint. Configure the API URL in your `appsettings.json` file accordingly. The container handles converting text to speech and returns an MP3 file, which this client processes.
+This client is designed to work with a text-to-speech container that provides a TTS API endpoint. Configure the API URL in your `appsettings.json` file accordingly. The container handles converting text to speech and returns an MP3 file, which this client processes. I'm personally running this container `ghcr.io/matatonic/openedai-speech:latest`
 
 ## License
 This project is licensed under the MIT License.
